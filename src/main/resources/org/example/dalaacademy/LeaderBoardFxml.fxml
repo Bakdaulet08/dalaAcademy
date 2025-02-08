@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="785.0" prefWidth="1540.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.dalaacademy.LeaderBoardPageController">
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <ListView fx:id="leaderBoard" editable="true" layoutX="361.0" layoutY="185.0" prefHeight="450.0" prefWidth="755.0" />
+                <Label fx:id="leaderLabel" alignment="CENTER" layoutX="344.0" layoutY="110.0" prefHeight="46.0" prefWidth="789.0" text="Leaders">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Label>
+                <Button fx:id="updateBoard" layoutX="361.0" layoutY="644.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="86.0" text="Жаңарту">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </Button>
+                <Button fx:id="addMember" layoutX="694.0" layoutY="644.0" mnemonicParsing="false" onAction="#handleAddPlayer" prefHeight="32.0" prefWidth="108.0" text="Адам қосу">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </Button>
+                <TextField fx:id="playerNameFIeld" layoutX="503.0" layoutY="647.0" prefHeight="26.0" prefWidth="87.0" promptText="Аты" />
+                <TextField fx:id="playerScoreField" layoutX="598.0" layoutY="647.0" prefHeight="26.0" prefWidth="87.0" promptText="Ұпайы" />
+                <Label fx:id="errorLabel" layoutX="505.0" layoutY="676.0" prefHeight="20.0" prefWidth="185.0" textFill="RED" />
+            <Pane fx:id="menu" layoutX="14.0" layoutY="194.0" prefHeight="558.0" prefWidth="182.0" style="-fx-background-color: #ced7d6;" visible="false">
+               <children>
+                  <Button layoutY="227.0" mnemonicParsing="false" onAction="#switchToPlan" prefHeight="52.0" prefWidth="182.0" style="-fx-background-color: #216962;" text="Plan" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="2.0" layoutY="156.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="182.0" style="-fx-background-color: #216962;" text="Leader Board" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Button>
+                  <Button layoutY="83.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="182.0" style="-fx-background-color: #216962;" text="Conspect" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Button>
+                  <Button layoutY="14.0" mnemonicParsing="false" onAction="#switchToMain" prefHeight="52.0" prefWidth="182.0" style="-fx-background-color: #216962;" text="Main" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Button layoutX="5.0" layoutY="120.0" mnemonicParsing="false" onAction="#openMenu">
+               <graphic>
+                  <ImageView fitHeight="80.0" fitWidth="137.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/menu.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Text fill="#216962" layoutX="110.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dala Academy" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="62.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="108.0" fitWidth="110.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/logoDala1.png" />
+               </image>
+            </ImageView>
+            <Line endX="1197.0" endY="6.200004577636719" layoutX="347.0" layoutY="104.0" startX="-351.1999816894531" startY="6.1999969482421875" />
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>

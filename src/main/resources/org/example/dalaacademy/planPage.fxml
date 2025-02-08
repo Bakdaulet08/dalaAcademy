@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="875.0" prefWidth="1540.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.dalaacademy.PlanPageController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#216962" height="139.0" stroke="BLACK" strokeType="INSIDE" width="1548.0" />
+      <ImageView fitHeight="128.0" fitWidth="118.0" layoutX="8.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/logoDala1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="133.0" layoutY="35.0" text="DALA Academy" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="145.0" mnemonicParsing="false" onAction="#openMenu">
+         <graphic>
+            <ImageView fitHeight="71.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/menu.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Pane fx:id="menu" layoutX="8.0" layoutY="222.0" prefHeight="558.0" prefWidth="182.0" style="-fx-background-color: #ced7d6;" visible="false">
+         <children>
+            <Button layoutY="227.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="182.0" style="-fx-background-color: #216962;" text="Plan" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="2.0" layoutY="156.0" mnemonicParsing="false" onAction="#switchToLeaderBoardPage" prefHeight="52.0" prefWidth="182.0" style="-fx-background-color: #216962;" text="Leader Board" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutY="83.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="182.0" style="-fx-background-color: #216962;" text="Conspect" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Button>
+            <Button layoutY="14.0" mnemonicParsing="false" onAction="#switchToMain" prefHeight="52.0" prefWidth="182.0" style="-fx-background-color: #216962;" text="Main" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <TextField fx:id="getPlan" layoutX="248.0" layoutY="243.0" prefHeight="70.0" prefWidth="598.0" promptText="Жоспарды енгізіңіз" />
+      <Label layoutX="361.0" layoutY="143.0" text="Plans" textFill="#216962">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <Button layoutX="863.0" layoutY="242.0" mnemonicParsing="false" onAction="#addPlan" prefHeight="52.0" prefWidth="54.0" style="-fx-background-color: #ffffff;">
+         <graphic>
+            <ImageView fitHeight="68.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/galochka.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ScrollPane layoutX="248.0" layoutY="338.0" prefHeight="500.0" prefWidth="622.0">
+        <content>
+          <AnchorPane fx:id="pane1" minHeight="0.0" minWidth="0.0" prefHeight="1000.0" prefWidth="606.0" />
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

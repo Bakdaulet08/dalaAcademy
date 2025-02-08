@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.dalaacademy.SignPageController">
+    <children>
+      <ImageView fitHeight="886.0" fitWidth="1540.0" layoutX="-13.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/bgDala2.jpg" />
+         </image></ImageView>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f2f2f282" height="92.0" layoutX="1.0" stroke="BLACK" strokeType="INSIDE" width="1540.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f0f0f07b" height="311.0" layoutX="561.0" layoutY="255.0" stroke="BLACK" strokeType="INSIDE" width="447.0" />
+        <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" spacing="10" />
+        <Label layoutX="666.0" layoutY="262.0" prefHeight="74.0" prefWidth="262.0" text="ҚОШ КЕЛДІҢІЗ!" textFill="#216962">
+            <font>
+                <Font size="35.0" />
+            </font>
+        </Label>
+        <Label layoutX="85.0" layoutY="14.0" text="Dala Academy">
+            <font>
+                <Font size="45.0" />
+            </font>
+        </Label>
+        <Button fx:id="btnRegistr" layoutX="733.0" layoutY="495.0" mnemonicParsing="false" onAction="#signUpNewUser" prefHeight="36.0" prefWidth="116.0" style="-fx-background-color: #216962;" text="Тіркелу" textFill="WHITE" />
+        <PasswordField fx:id="setPass" layoutX="669.0" layoutY="442.0" prefHeight="36.0" prefWidth="244.0" promptText="Құпия сөз" />
+        <TextField fx:id="setLogin" layoutX="669.0" layoutY="343.0" prefHeight="36.0" prefWidth="244.0" promptText="Почта енгізіңіз" />
+        <ImageView fitHeight="74.0" fitWidth="74.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/logoDala1.png" />
+         </image></ImageView>
+        <Text fill="WHITE" layoutX="367.0" layoutY="704.0" strokeType="OUTSIDE" strokeWidth="0.0" text="“Dala Academy” курсы екі жыл бұрын ашылған. Курс Қазақстан тарихын терең зерттеуге бағытталған." textAlignment="CENTER" wrappingWidth="842.7829685211182">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text fill="WHITE" layoutX="367.0" layoutY="729.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Тыңдаушылар дәрістерді тыңдап қана қоймай, пікірталастарға қатысады, " textAlignment="CENTER" wrappingWidth="842.7829685211182">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text fill="WHITE" layoutX="360.0" layoutY="756.0" strokeType="OUTSIDE" strokeWidth="0.0" text="шығармашылық тапсырмалар орындайды және мұрағат материалдарымен жұмыс істейді." textAlignment="CENTER" wrappingWidth="842.7829685211182">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text fill="WHITE" layoutX="367.0" layoutY="783.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Курсқа жазылу немесе қосымша ақпарат алу үшін келесі нөмірлерге хабарласыңыз:" textAlignment="CENTER" wrappingWidth="842.7829685211182">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text fill="WHITE" layoutX="367.0" layoutY="810.0" strokeType="OUTSIDE" strokeWidth="0.0" text="📞+7 (771) 184-29-63" textAlignment="CENTER" wrappingWidth="842.7829685211182">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="96.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fill="WHITE" layoutX="376.0" layoutY="837.0" strokeType="OUTSIDE" strokeWidth="0.0" text="📞 +7 (708) 583-07-18" textAlignment="CENTER" wrappingWidth="842.7829685211182">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="386.0" layoutY="860.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Dala Academy орталығымен бірге еліміздің тарихи мұрасын ашуға атсалысыңыз!" textAlignment="CENTER" wrappingWidth="842.7829685211182">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="setName" layoutX="669.0" layoutY="394.0" prefHeight="36.0" prefWidth="244.0" promptText="Аты - жөніңіз" />
+      <Pane fx:id="smthIsEmpty" layoutX="598.0" layoutY="599.0" prefHeight="43.0" prefWidth="361.0" style="-fx-background-color: #ffffff;" visible="false">
+         <children>
+            <Text fill="#e70000" layoutX="-241.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Барлық деректер толмады" textAlignment="CENTER" wrappingWidth="842.7829685211182">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+    </children>
+
+</AnchorPane>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1633.0" prefWidth="1540.0" style="-fx-background-image: url(&quot;bgDala.jpg&quot;);" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.dalaacademy.cons1">
+    <children>
+        <Text fill="#216962" layoutX="528.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Түрік қағанаты" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="62.0" />
+            </font>
+        </Text>
+        <ScrollPane layoutY="227.0" prefHeight="800.0" prefWidth="1546.0" style="-fx-background-color: #216962;">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="3000.0" prefWidth="1530.0">
+                    <children>
+                        <Text layoutX="178.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Түрік қағанаты – VI ғасырдың орта кезінде құрылған, Еуразия даласындағы алғашқы ірі көшпелі империялардың бірі.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="168.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ол түркі халықтарының бірігуі мен мемлекеттік құрылымының бастауында тұрған маңызды тарихи кезеңді бейнелейді.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="113.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Қағанаттың құрылуы және дамуы Орта Азия мен Еуразия кеңістігінің саяси, мәдени, және экономикалық тарихына зор ықпал етті.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text fill="#216962" layoutX="709.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Құрылуы" textAlignment="CENTER">
+                            <font>
+                                <Font name="System Bold" size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="116.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Түрік қағанаты 552 жылы Бумын қағанның басшылығымен құрылды. Ол Алтай мен Жетісу өңірінде орналасқан түркі тайпаларын">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="80.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="тайпаларын біріктіріп, жужандарға қарсы шықты. Жеңіске жеткеннен кейін Бумын өзін қаған деп жариялап, мемлекеттің негізін қалады.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text fill="#216962" layoutX="649.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Географиялық аумағы">
+                            <font>
+                                <Font name="System Bold" size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="192.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Түрік қағанатының аумағы кеңейіп, шығысында Қытай шекарасынан бастап батысында Қара теңізге дейін созылды.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="221.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Бұл мемлекет Ұлы Жібек жолының бойында орналасып, сауда мен мәдени алмасудың орталығына айналды.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text fill="#216962" layoutX="708.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Бөлінуі">
+                            <font>
+                                <Font name="System Bold" size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="121.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Түрік қағанаты ішкі қақтығыстар мен билікке талас салдарынан 603 жылы Шығыс Түрік және Батыс Түрік қағанаттарына бөлінді.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="306.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Шығыс Түрік қағанаты Моңғолия аумағында орналасып, Қытаймен тығыз байланыста болды.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="229.0" layoutY="414.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Батыс Түрік қағанаты қазіргі Қазақстан жерінде орналасып, Орта Азия мен Кавказ аймақтарына ықпал етті.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text fill="#216962" layoutX="701.0" layoutY="446.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Маңызы">
+                            <font>
+                                <Font name="System Bold" size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="201.0" layoutY="478.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Түрік қағанаты түркі халықтарының бірлігі мен ұлттық санасының қалыптасуында шешуші рөл атқарды. Ол түркі">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="214.0" layoutY="507.0" strokeType="OUTSIDE" strokeWidth="0.0" text="тілінің, мәдениетінің және әдет-ғұрпының таралуына негіз болды. Қағанаттың әскери күші мен экономикалық">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="250.0" layoutY="539.0" strokeType="OUTSIDE" strokeWidth="0.0" text="жүйесі көрші мемлекеттерге ықпал етіп, түркілерді әлемдік тарихтың маңызды ойыншысына айналдырды.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text fill="#216962" layoutX="671.0" layoutY="565.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Құлау себептері">
+                            <font>
+                                <Font name="System Bold" size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="43.0" layoutY="589.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VII ғасырдың аяғына қарай Түрік қағанаты ішкі алауыздықтар, көрші мемлекеттермен қақтығыстар және сыртқы жаулардың шабуылдары">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="148.0" layoutY="621.0" strokeType="OUTSIDE" strokeWidth="0.0" text="салдарынан әлсіреп, тарих сахнасынан кетті. Дегенмен, оның мұрасы кейінгі түркі мемлекеттерінің қалыптасуына негіз болды.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text fill="#216962" layoutX="611.0" layoutY="693.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Сұрақ - жауап">
+                            <font>
+                                <Font name="System Bold" size="44.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="121.0" layoutY="765.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Түрік қағанаты қашан құрылды?">
+                            <font>
+                                <Font name="System Bold" size="32.0" />
+                            </font>
+                        </Text>
+                        <RadioButton id="ans1" fx:id="ans1" layoutX="120.0" layoutY="773.0" mnemonicParsing="false" text="A) 552 жылы">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                            <toggleGroup>
+                                <ToggleGroup fx:id="q1" />
+                            </toggleGroup>
+                        </RadioButton>
+                        <RadioButton layoutX="121.0" layoutY="805.0" mnemonicParsing="false" text="B) 632 жылы" toggleGroup="$q1">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton layoutX="122.0" layoutY="837.0" mnemonicParsing="false" text="C) 705 жылы" toggleGroup="$q1">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton layoutX="121.0" layoutY="869.0" mnemonicParsing="false" text="D) 1236 жылы" toggleGroup="$q1">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <Text layoutX="113.0" layoutY="946.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Түрік қағанатының алғашқы қағаны кім болды?">
+                            <font>
+                                <Font name="System Bold" size="32.0" />
+                            </font>
+                        </Text>
+                        <RadioButton layoutX="123.0" layoutY="954.0" mnemonicParsing="false" text="A) Тоныкөк">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                            <toggleGroup>
+                                <ToggleGroup fx:id="q2" />
+                            </toggleGroup>
+                        </RadioButton>
+                        <RadioButton layoutX="123.0" layoutY="988.0" mnemonicParsing="false" text="B) Күлтегін" toggleGroup="$q2">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton fx:id="ans2" layoutX="123.0" layoutY="1020.0" mnemonicParsing="false" text="C) Бумын қаған" toggleGroup="$q2">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton id="ans2" layoutX="123.0" layoutY="1052.0" mnemonicParsing="false" text="D) Білге қаған" toggleGroup="$q2">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <Text layoutX="113.0" layoutY="1119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Түрік қағанатының аумағы қай жерлерді қамтыды?">
+                            <font>
+                                <Font name="System Bold" size="32.0" />
+                            </font>
+                        </Text>
+                        <RadioButton layoutX="120.0" layoutY="1131.0" mnemonicParsing="false" text="A) Тек Қытай аумағы">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                            <toggleGroup>
+                                <ToggleGroup fx:id="q3" />
+                            </toggleGroup>
+                        </RadioButton>
+                        <RadioButton id="ans3" fx:id="ans3" layoutX="119.0" layoutY="1163.0" mnemonicParsing="false" text="В) Қазақстан, Орта Азия, Оңтүстік Сібір" toggleGroup="$q3">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton layoutX="118.0" layoutY="1195.0" mnemonicParsing="false" text="C) Кавказ және Батыс Еуропа" toggleGroup="$q3">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton layoutX="118.0" layoutY="1227.0" mnemonicParsing="false" text="D) Тек қазіргі Түркия аумағы" toggleGroup="$q3">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <Text layoutX="113.0" layoutY="1294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. Түрік қағанатының әлсіреуіне не себеп болды?">
+                            <font>
+                                <Font name="System Bold" size="32.0" />
+                            </font>
+                        </Text>
+                        <RadioButton id="ans4" fx:id="ans4" layoutX="120.0" layoutY="1306.0" mnemonicParsing="false" text="A) Ішкі алауыздық пен тайпалар арасындағы қақтығыстар">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                            <toggleGroup>
+                                <ToggleGroup fx:id="q4" />
+                            </toggleGroup>
+                        </RadioButton>
+                        <RadioButton layoutX="120.0" layoutY="1338.0" mnemonicParsing="false" text="B) Табиғи апаттар" toggleGroup="$q4">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton layoutX="229.0" layoutY="1364.0" mnemonicParsing="false" text="D) Сырдария өзенінің тартылуы" toggleGroup="$q4">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton layoutX="92.0" layoutY="1396.0" mnemonicParsing="false" text="C) Қытаймен сауда тоқтауы" toggleGroup="$q4">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <Text layoutX="113.0" layoutY="1469.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5. Түрік қағанатының негізгі жазба ескерткіштері қандай?">
+                            <font>
+                                <Font name="System Bold" size="32.0" />
+                            </font>
+                        </Text>
+                        <RadioButton layoutX="119.0" layoutY="1481.0" mnemonicParsing="false" text="A) Оғызнама">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                            <toggleGroup>
+                                <ToggleGroup fx:id="q5" />
+                            </toggleGroup>
+                        </RadioButton>
+                        <RadioButton layoutX="118.0" layoutY="1513.0" mnemonicParsing="false" text="B) Махмұд Қашқари еңбектері" toggleGroup="$q5">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton layoutX="118.0" layoutY="1545.0" mnemonicParsing="false" text="C) Қорқыт ата кітабы" toggleGroup="$q5">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton id="ans5" fx:id="ans5" layoutX="118.0" layoutY="1577.0" mnemonicParsing="false" text="D) Күлтегін мен Тоныкөк жазбалары" toggleGroup="$q5">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                  <Label fx:id="resPoint" layoutX="920.0" layoutY="1810.0" text="0">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                        <Button layoutX="650.0" layoutY="1700.0" mnemonicParsing="false" onAction="#checkAns" text="Тестті тексеру">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font></Button>
+                  <Label fx:id="resPoint1" layoutX="740.0" layoutY="1810.0" text="Тестілеу нәтижесі:">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+        <Text fill="#216962" layoutX="112.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dala Academy" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="62.0" />
+            </font>
+        </Text>
+        <Pane layoutY="106.0" prefHeight="4.0" prefWidth="1540.0" style="-fx-background-color: #216962;" />
+        <Button fx:id="" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#checkAns" prefHeight="96.0" prefWidth="98.0" style="-fx-background-color: #216962;" />
+      <ImageView fitHeight="89.0" fitWidth="98.0" layoutX="18.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/logoDala1.png" />
+         </image></ImageView>
+      <Pane fx:id="menu" layoutX="14.0" layoutY="197.0" prefHeight="558.0" prefWidth="182.0" style="-fx-background-color: #ced7d6;" visible="false">
+         <children>
+            <Button layoutY="227.0" mnemonicParsing="false" onAction="#switchToPlan" prefHeight="52.0" prefWidth="182.0" style="-fx-background-color: #216962;" text="Plan" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="2.0" layoutY="156.0" mnemonicParsing="false" onAction="#switchToLeaderBoardPage" prefHeight="52.0" prefWidth="182.0" style="-fx-background-color: #216962;" text="Leader Board" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutY="83.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="182.0" style="-fx-background-color: #216962;" text="Conspect" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Button>
+            <Button layoutY="14.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="182.0" style="-fx-background-color: #216962;" text="Main" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Button layoutX="14.0" layoutY="110.0" mnemonicParsing="false" onAction="#openMenu1" textFill="#216962">
+         <graphic>
+            <ImageView fitHeight="80.0" fitWidth="137.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/menu.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+    </children>
+</AnchorPane>

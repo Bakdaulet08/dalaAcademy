@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1633.0" prefWidth="1540.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.dalaacademy.cons1">
+    <children>
+        <Text fill="#216962" layoutX="455.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Моңғол шапқыншылығы" textAlignment="CENTER" wrappingWidth="729.9189453125">
+            <font>
+                <Font name="System Bold" size="62.0" />
+            </font>
+        </Text>
+        <ScrollPane layoutY="227.0" prefHeight="500.0" prefWidth="1546.0" style="-fx-background-color: #216962;">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="3000.0" prefWidth="1530.0">
+                    <children>
+                        <Text layoutX="340.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Моңғол шапқыншылығы XIII ғасырдың басында Шыңғыс ханның басшылығымен басталды.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="287.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Шыңғыс хан (Темучин) 1206 жылы барлық моңғол тайпаларын біріктіріп, өзін &quot;Ұлы хан&quot; деп жариялады.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="296.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1219 жылы Қазақстан аумағына шапқыншылық жасай бастады. Бірінші нысаны Отырар қаласы болды.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text fill="#216962" layoutX="709.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Құрылуы" textAlignment="CENTER">
+                            <font>
+                                <Font name="System Bold" size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="116.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Моңғол шапқыншылығы XIII ғасырдың басында Шыңғыс ханның басшылығымен басталды. Шыңғыс хан (Темучин) 1206 жылы барлық ">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="138.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="моңғол тайпаларын біріктіріп, өзін &quot;Ұлы хан&quot; деп жариялады. 1219 жылы Қазақстан аумағына шапқыншылық жасай бастады.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text fill="#216962" layoutX="649.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Географиялық аумағы">
+                            <font>
+                                <Font name="System Bold" size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="371.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Шығысында: Жапония теңізі мен Қытай. Батысында: Шығыс Еуропа (Венгрия мен Польша). ">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="398.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Солтүстігінде: Сібір тайгасы. Оңтүстігінде: Парсы, Үндістан, және Таяу Шығыс.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text fill="#216962" layoutX="708.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Бөлінуі">
+                            <font>
+                                <Font name="System Bold" size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="213.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Шыңғыс хан қайтыс болғаннан кейін (1227 ж.), оның ұлдары мен немерелері империяны бірнеше ұлысқа бөлді:">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="115.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Жошы ұлысы: Батыс Қазақстан және Алтын Орда мемлекетінің негізі. Шағатай ұлысы: Орта Азия мен оңтүстік-шығыс Қазақстан.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="228.0" layoutY="411.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Үгедей ұлысы: Моңғолия аумағы.  Төлей ұлысы: Қытай және моңғол империясының орталығы.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text fill="#216962" layoutX="701.0" layoutY="446.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Маңызы">
+                            <font>
+                                <Font name="System Bold" size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="201.0" layoutY="478.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Саяси: Қазақстан аумағында моңғол дәуірінен кейін Алтын Орда және Қазақ хандығының негіздері қалыптасты.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="412.0" layoutY="509.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Мәдени: Түркі және моңғол мәдениеттерінің өзара ықпалы күшейді.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="256.0" layoutY="538.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Экономикалық: Ұлы Жібек жолының көптеген бөліктері қирады, бірақ кейін қайта қалпына келтірілді.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text fill="#216962" layoutX="671.0" layoutY="565.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Құлау себептері">
+                            <font>
+                                <Font name="System Bold" size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="140.0" layoutY="591.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ішкі алауыздықтар: Билік үшін таластар империяны әлсіретті. Ұлыстардың бөлінуі: Әрбір ұлыс тәуелсіз мемлекетке айналды.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="160.0" layoutY="621.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Экономикалық күйреу: Шапқыншылықтар мен соғыстар нәтижесінде ауыл шаруашылығы мен сауда тоқырауға ұшырады.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text fill="#216962" layoutX="611.0" layoutY="693.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Сұрақ - жауап">
+                            <font>
+                                <Font name="System Bold" size="44.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="121.0" layoutY="765.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Моңғол шапқыншылығы қашан басталды?">
+                            <font>
+                                <Font name="System Bold" size="32.0" />
+                            </font>
+                        </Text>
+                        <RadioButton layoutX="120.0" layoutY="773.0" mnemonicParsing="false" text="A) 1206 жылы">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q6" />
+                     </toggleGroup>
+                        </RadioButton>
+                        <RadioButton id="ans1" fx:id="cr1" layoutX="121.0" layoutY="805.0" mnemonicParsing="false" text="B) 1219 жылы" toggleGroup="$q6">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton layoutX="122.0" layoutY="837.0" mnemonicParsing="false" text="C) 1227 жылы" toggleGroup="$q6">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton layoutX="121.0" layoutY="869.0" mnemonicParsing="false" text="D) 1256 жылы">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="a6" />
+                     </toggleGroup>
+                        </RadioButton>
+                        <Text layoutX="113.0" layoutY="946.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Шыңғыс хан Қазақстан аумағындағы қай қаланы бірінші болып басып алды?">
+                            <font>
+                                <Font name="System Bold" size="32.0" />
+                            </font>
+                        </Text>
+                        <RadioButton layoutX="123.0" layoutY="954.0" mnemonicParsing="false" text="A) Тараз">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q7" />
+                     </toggleGroup>
+                        </RadioButton>
+                        <RadioButton layoutX="123.0" layoutY="988.0" mnemonicParsing="false" text="B) Сығанақ" toggleGroup="$q7">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton id="ans2" fx:id="cr2" layoutX="123.0" layoutY="1020.0" mnemonicParsing="false" text="C) Отырар" toggleGroup="$q7">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton layoutX="123.0" layoutY="1052.0" mnemonicParsing="false" text="D) Ашнас" toggleGroup="$q7">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <Text layoutX="113.0" layoutY="1119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Моңғол империясы қай жылы Шыңғыс ханның ұлдары арасында бөлінді?">
+                            <font>
+                                <Font name="System Bold" size="32.0" />
+                            </font>
+                        </Text>
+                        <RadioButton layoutX="120.0" layoutY="1131.0" mnemonicParsing="false" text="A) 1219 жылы">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q8" />
+                     </toggleGroup>
+                        </RadioButton>
+                        <RadioButton id="ans3" fx:id="cr3" layoutX="119.0" layoutY="1163.0" mnemonicParsing="false" text="B) 1227 жылы" toggleGroup="$q8">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton layoutX="118.0" layoutY="1195.0" mnemonicParsing="false" text="C) 1236 жылы" toggleGroup="$q8">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton layoutX="118.0" layoutY="1227.0" mnemonicParsing="false" text="D) 1251 жылы" toggleGroup="$q8">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <Text layoutX="113.0" layoutY="1294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. Қазақстан аумағында қай ұлыс құрылды?">
+                            <font>
+                                <Font name="System Bold" size="32.0" />
+                            </font>
+                        </Text>
+                        <RadioButton id="ans4" fx:id="cr4" layoutX="120.0" layoutY="1306.0" mnemonicParsing="false" text="A) Шағатай ұлысы және Жошы ұлысы">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q10" />
+                     </toggleGroup>
+                        </RadioButton>
+                        <RadioButton layoutX="120.0" layoutY="1338.0" mnemonicParsing="false" text="B) Алтын Орда және Үгедей ұлысы">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="q9" />
+                     </toggleGroup>
+                        </RadioButton>
+                        <RadioButton layoutX="119.0" layoutY="1370.0" mnemonicParsing="false" text="C) Шағатай ұлысы және Үгедей ұлысы" toggleGroup="$q9">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton layoutX="119.0" layoutY="1402.0" mnemonicParsing="false" text="D) Төлей ұлысы және Жошы ұлысы" toggleGroup="$q9">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <Text layoutX="113.0" layoutY="1469.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5. Моңғол шапқыншылығының Қазақстанға тигізген негізгі әсері қандай болды?">
+                            <font>
+                                <Font name="System Bold" size="32.0" />
+                            </font>
+                        </Text>
+                        <RadioButton layoutX="119.0" layoutY="1481.0" mnemonicParsing="false" text="A) Барлық қалалардың өркендеуі" toggleGroup="$q10">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton id="ans5" fx:id="cr5" layoutX="118.0" layoutY="1513.0" mnemonicParsing="false" text="B) Алтын Орданың құрылуы" toggleGroup="$q10">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton layoutX="118.0" layoutY="1545.0" mnemonicParsing="false" text="C) Ұлы Жібек жолының толықтай жойылуы" toggleGroup="$q10">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                        <RadioButton layoutX="118.0" layoutY="1577.0" mnemonicParsing="false" text="D) Қазақ хандығының бірден құрылуы" toggleGroup="$q10">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </RadioButton>
+                  <Button layoutX="360.0" layoutY="1686.0" mnemonicParsing="false" onAction="#checkAns2" prefHeight="66.0" prefWidth="230.0" text="Тестті тексеру">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="resPoint2" layoutX="530.0" layoutY="1775.0" text="3">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="resPoint21" layoutX="300.0" layoutY="1780.0" text="Тест нәтижесі:">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Label>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+        <Text fill="#216962" layoutX="114.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dala Academy" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="62.0" />
+            </font>
+        </Text>
+        <Pane layoutY="106.0" prefHeight="4.0" prefWidth="1540.0" style="-fx-background-color: #216962;" />
+      <ImageView fitHeight="99.0" fitWidth="110.0" layoutX="14.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/logoDala1.png" />
+         </image></ImageView>
+      <Pane fx:id="pane2" layoutX="24.0" layoutY="207.0" prefHeight="558.0" prefWidth="182.0" style="-fx-background-color: #ced7d6;" visible="false">
+         <children>
+            <Button layoutY="227.0" mnemonicParsing="false" onAction="#switchToPlan" prefHeight="52.0" prefWidth="182.0" style="-fx-background-color: #216962;" text="Plan" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="2.0" layoutY="156.0" mnemonicParsing="false" onAction="#switchToLeaderBoardPage" prefHeight="52.0" prefWidth="182.0" style="-fx-background-color: #216962;" text="Leader Board" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutY="83.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="182.0" style="-fx-background-color: #216962;" text="Conspect" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Button>
+            <Button layoutY="14.0" mnemonicParsing="false" onAction="#switchToMain" prefHeight="52.0" prefWidth="182.0" style="-fx-background-color: #216962;" text="Main" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Button fx:id="men" layoutX="24.0" layoutY="120.0" mnemonicParsing="false" onAction="#openMenu" textFill="#216962">
+         <graphic>
+            <ImageView fitHeight="80.0" fitWidth="137.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/menu.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+    </children>
+</AnchorPane>
